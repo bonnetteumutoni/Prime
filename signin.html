@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Account</title>
+    <style>
+        .signup_form{
+          width: 40%;
+          margin: 0 auto;
+          padding: 20px;
+          box-shadow: inset 0 0 0 4px #ddd;
+        }
+        .signup_form input{
+            padding: 20px 18px;
+            width: 70%;
+            height: 75%;
+            border:solid 1px;
+            margin: 20px;
+            
+  }
+  #button{
+    padding: 16px 15px;
+    text-align: center;
+    margin: 7px;
+    width: 500px;
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+  }
+  .signup_form label{
+    float:left;
+    width: 40%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  h1,p{
+    text-align: left;
+    margin-left: 15px;
+  }
+  #lines:before{
+  content:" ";
+  display: block;
+  height: 2px;
+  width: 170px;
+  top: 50%;
+  left: 0;
+  background-color: black;
+  text-align: left;
+  }
+  #lines{
+    
+  position: relative;
+
+  }
+  #lines{
+    position: relative;
+  max-width: 500px;
+  margin: 100px auto;
+  text-align: center;
+  }
+  #lines:after{
+  content:" ";
+  height: 2px;
+  width: 170px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  }
+
+  .fa-facebook{
+    background-color: black;
+    color: white;
+    zoom: 1.2;
+    moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+margin: 5px 2px;
+font-size: 23px;
+width: 15px;
+margin: 0 auto;
+height: 19px;
+text-align: right;
+margin-bottom: 30px;
+  }
+  .fa-google{
+    background-color: none;
+    color: black;
+    -ms-zoom: 2;
+    margin-bottom: 30px;
+  }
+  #terms{
+    width: 120px;
+    float: left;
+    
+  }
+    </style>
+</head>
+<body>
+    <form class="signup_form" action="/action_page.php">
+    <p style="text-align: left;">Don't have an account?<a href="index.html" style="color: black;"><b>sign up</b></a></p>
+    <h1>Sign in</h1>
+    <label for="Email address">Email:</label><br>
+    <input id="Email address" placeholder="sadeqsaadi2@gmail.com" type="email"/><br>
+    <label for="Password">Password</label><br>
+    <input id="Password" placeholder="kmkjl4566" type="password"/><br>
+    
+    <input type="checkbox" id="terms" name="terms" />
+    <label for=" terms"> I've Read and Agree <b>The Terms Of Service</b> and Our <b>Privacy Policy</b></label><br><br><br><br><br>
+    <a id="button" href="http://127.0.0.1:5500/table.html">Sign in </a>
+    <p style="margin-left: 5%;" id="lines">or sign up with</p>
+    <a href="#" class="fa fa-google" style="margin-left: 31%;"></a>
+    <a href="#" class="fa fa-facebook" style="margin-left: 13%;"></a>
+</form>
+
+</body>
+</html>
